@@ -1,0 +1,13 @@
+const reverseString = (s) => {
+  for (let i = 0; i < s.length / 2; i++) {
+    const temp = s[i];
+    s[i] = s[s.length - 1 - i];
+    s[s.length - 1 - i] = temp;
+  }
+
+  console.log(s);
+
+  return s;
+};
+
+reverseString(["H", "a", "n", "n", "a", "h"]);
