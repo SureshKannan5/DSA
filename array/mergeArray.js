@@ -19,7 +19,9 @@ const mergeArray = (num1, m, num2, n) => {
     }
   }
 
+  console.log(num1);
+
   return num1;
 };
 
-mergeArray([0], 0, [1], 1);
+mergeArray([1, 3, 5, 7], 4, [2, 4, 8, 9], 4);

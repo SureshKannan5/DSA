@@ -5,9 +5,7 @@ function printNum(num) {
 
   console.log(num);
 
-  num -= 1;
-
-  printNum(num);
+  printNum(num - 1);
 }
 
 printNum(5);
